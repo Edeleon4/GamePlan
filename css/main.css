@@ -1,0 +1,305 @@
+.section {
+  color: grey;
+}
+
+a.disabled { text-decoration:none; color:#bbb; }
+
+.thumbnail {
+  cursor: pointer;
+}
+.playClick{
+    cursor: pointer;
+}
+#search-field .empty-message {
+  padding: 5px 10px;
+ text-align: center;
+}
+
+.tt-hint {
+  color: #999
+}
+
+.tt-dropdown-menu {
+  width: 273px;
+  margin-top: 12px;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+  padding: 3px 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor {
+/*  color: #fff;
+  background-color: #0097cf;*/
+  background-color: #F0F0F0;
+  color: black;
+  cursor:default;
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
+
+::-webkit-input-placeholder { font-style: italic; }
+::-moz-placeholder { font-style: italic; } /* firefox 19+ */
+:-ms-input-placeholder { font-style: italic; } /* ie */
+input:-moz-placeholder { font-style: italic; }
+
+#info li {
+	margin: 0 0 5px 0;
+}
+
+#info {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#star {
+	max-height: 34px;
+  position: relative;
+  top: -5px;
+}
+
+.navbar-form .form-group {
+	padding-right: 15px;
+}
+
+
+.navbar-fixed-top {
+	z-index: 11;
+  background-color:  #A31F34;
+}
+
+body {
+  padding-top: 50px;
+  background-color: #F8F8F8;
+}
+
+.favorite {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  position: relative;
+  float: right;
+}
+.favoriteHome {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  position: relative;
+}
+.navbar-brand {
+	font-family: 'Audiowide', cursive;
+	font-size: 25px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #C2C0BF;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #5B000E;
+  color: white;
+
+}
+
+.navbar-nav >li >.dropdown-menu > li > a:hover {
+  background-color: #F0F0F0;
+  color: black;
+
+}
+
+button:focus {outline:0;}
+
+.playButton {
+  color: blue;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+
+.playButton:hover {
+  text-decoration: underline;
+}
+
+.thumbnail:hover {
+  border-color: blue;
+}
+
+.jumbotron {
+  color: black;
+  padding: 0px;
+  background-image:url('../images/court.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 55%;
+  margin-bottom: 0;
+
+}
+
+#jumboleft {
+  height: 325px;
+  text-align: center;
+  margin-top: 75px;
+  padding-left: 70px;
+}
+
+
+#jumboright {
+  text-align: center;
+  margin-right: 0px;
+  padding-top: 0px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  height: 375px;
+}
+
+#feature {
+  text-align: center;
+  /*font-size: 80px;
+*/  font-weight: bold;
+}
+
+#princeton {
+  color: blue;
+  text-align: center;
+  /*font-size: 60px;*/
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#princeton:hover {
+  text-decoration: underline;
+}
+
+#left {
+  border-style: none;
+  border-width: 1px;
+}
+
+#right {
+  overflow-y: scroll;
+  background-color: #C2C0BF;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0px;
+}
+
+#right .active{
+  background-color: #A31F34;
+  color: white;
+  border-style: none;
+}
+
+.section:hover {
+  color: #A31F34;
+  cursor: pointer;
+  border-color: #A31F34;
+  z-index: 10;
+
+}
+
+#featured-video {
+  margin-top: 0px;
+}
+
+#jumborow {
+  margin-top: 0px;
+  padding-top: 0px;
+/*  height: 400px;*/
+}
+
+
+
+.breadcrumb {
+  background: none;
+  position: relative;
+  top: 10px;
+  padding-left: 0px;
+}
+
+.breadcrumb a {
+  color: blue;
+}
+
+#play-content {
+  display: flex;
+}
+
+#bottom {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ffe5e5;
+}
+
+.left {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#video {
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  #video {
+    width: 100%;
+  }
+}
+
+.delete {
+  float: right;
+}
+
+#addNote {
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  position: absolute;
+  padding-bottom: 10px;
+  bottom: 0px;
+  background-color: #5B000E;
+}
+
+#add_note_button {
+  float: right;
+  width: 39%;
+  border: 1px solid #ffe5e5;
+}
+
+#add_note_text {
+  width: 100%;
+  border: 1px solid #ffe5e5;
+}
+
+#note-container {
+  overflow-y: scroll;
+}
+
+#title {
+  padding-left: 15px;
+  padding-right: 15px;
+}
